@@ -1,0 +1,14 @@
+<configuration>
+	<input>
+		<net-file value=".\osm.net.xml"/>
+		<route-files value="osm.rou.xml"/>
+		<additional-files value="rerouter.add.xml"/>
+	</input>
+	<time>
+		<begin value="0"/>
+		<end value="600.0"/>
+	</time>
+	<output>
+		<fcd-output value="custom.output.xml"/>
+	</output>
+</configuration>
